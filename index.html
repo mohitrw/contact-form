@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Working Form</title>
+
+    <link rel="stylesheet" href="WorkingForm.css">
+</head>
+<body>
+    <div class="container">
+        <form action="https://api.web3forms.com/submit" method="POST" class="contentLeft">
+           
+            <div class="text">
+                <h2>Get in touch</h2>
+                <hr>
+            </div>
+
+            <input type="hidden" name="access_key" value="dd6d1419-14ed-4716-baf2-175e9a5358de">
+            <input name="text" type="text" placeholder="Your name" class="contact-inputs" required>
+            <input name="email" type="email" placeholder="Your email." class="contact-inputs" required>
+            <textarea name="message" class="contact-inputs" placeholder="Your message"></textarea>
+            <button type="submit" >Submit<img src="assets/arrow_icon.png" alt=""></button>
+        </form>
+
+        <div class="contentRight">
+            <img src="assets/right_img.png" alt="">
+        </div>
+        
+    </div>
+</body>
+</html>
